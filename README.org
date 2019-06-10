@@ -1,2 +1,13 @@
 * Princeton Emacs Website
 In the beginning there was darkness
+
+This is a website built with [[https://gohugo.io/][Hugo]] and [[https://github.com/kaushalmodi/ox-hugo][ox-hugo]].
+** Prerequisites
+Install Hugo
+#+BEGIN_SRC shell
+brew install hugo
+#+END_SRC
+
+In Emacs, install ox-hugo and configure in your init.el config by following the ox-hugo instructions below:
+https://ox-hugo.scripter.co/#installation
+https://ox-hugo.scripter.co/#usage
