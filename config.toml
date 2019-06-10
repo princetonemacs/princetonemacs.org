@@ -3,3 +3,11 @@ languageCode = "en-us"
 title = "Princeton Emacs"
 
 theme = "blank"
+
+[params.source]
+  url = "https://github.com/princetonemacs/princetonemacs.org"
+  org_dir = "content-org"
+  org_file = "content-org/content.org"
+
+[params.footer]
+  show_powered_by = true
