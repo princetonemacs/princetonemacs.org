@@ -1,17 +1,18 @@
 +++
-title = "Home"
+title = "Princeton Emacs"
 author = ["Jonathan Chu"]
 type = "homepage"
 draft = false
-[menu.main]
-  weight = 1001
-  identifier = "home"
 +++
 
 ## Welcome to Princeton Emacs. {#welcome-to-princeton-emacs-dot}
 
 
 ## What is Princeton Emacs? {#what-is-princeton-emacs}
+
+Well…you are!  Princeton Emacs is about the Emacs community right here in Princeton, New Jersey.  It's not about any one company or a core group of individuals. We were founded on the principle that everyone deserves to be treated with respect. We all deserve a safe, judgement free place to congregate—online, and in person.
+
+Please see our code of conduct for complete details.
 
 
 ## You can find us here {#you-can-find-us-here}
@@ -27,6 +28,9 @@ draft = false
 
 
 ## Call For Proposals! {#call-for-proposals}
+
+Interested in speaking? Fill out this Google form and we’ll get in touch.
+<https://forms.gle/jqQ21CxYu8tZYe937>
 
 
 ## Code of Conduct {#code-of-conduct}
@@ -64,4 +68,4 @@ Meetup staff will be happy to help participants contact local law enforcement, p
 ## Organizers {#organizers}
 
 Jonathan Chu
-<http://jonathanchu.is/>
+<https://jonathanchu.is/>
