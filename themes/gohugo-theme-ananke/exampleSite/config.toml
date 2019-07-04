@@ -1,14 +1,15 @@
-baseURL = "https://princetonemacs.org/"
+title = "Notre-Dame de Paris"
+baseURL = "https://example.com"
 languageCode = "en-us"
-title = "Princeton Emacs"
-
-# theme = "blank"
 theme = "gohugo-theme-ananke"
-googleAnalytics = "UA-142985376-1"
+themesDir = "../.."
 
-# Start theme-specific config
-enableRobotsTXT = true
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
 Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
 
 [sitemap]
   changefreq = "monthly"
@@ -19,26 +20,14 @@ Paginate = 3 # this is set low for demonstrating with dummy content. Set to a hi
   favicon = ""
   description = "The last theme you'll ever need. Maybe."
   facebook = ""
-  twitter = "https://twitter.com/princetonemacs"
+  twitter = "https://twitter.com/GoHugoIO"
   instagram = ""
   youtube = ""
-  github = "https://github.com/princetonemacs"
+  github = ""
   gitlab = ""
   linkedin = ""
   mastodon = ""
   # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-  background_color_class = "bg-orange"
+  background_color_class = "bg-black"
   featured_image = "/images/gohugo-default-sample-hero-image.jpg"
   recent_posts_number = 2
-  recent_copy = "Past Meetups"
-
-# End theme-specific config
-
-
-[params.source]
-  url = "https://github.com/princetonemacs/princetonemacs.org"
-  org_dir = "content-org"
-  org_file = "content-org/content.org"
-
-[params.footer]
-  show_powered_by = true
