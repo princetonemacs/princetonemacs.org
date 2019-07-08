@@ -1,11 +1,29 @@
-{{ partial "header.html" . }}
-        <main>
-                {{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
-                {{ range $paginator.Pages }}
-                        {{ partial "summary.html" . }}
-                {{ end }}
-          <!-- {{ partial "pagination.html" . }} -->
-          {{ .Content }}
-        </main>
-        <!-- {{ partial "sidebar.html" . }} -->
-{{ partial "footer.html" . }}
+<!DOCTYPE html>
+<html>
+<head>
+	
+	{{ partial "head.html" . }}
+
+</head>
+<body>
+
+	{{ partial "header.html" . }}
+
+	{{ partial "slider.html" . }}
+
+        {{ partial "wrapper.html" . }}
+        
+        {{ partial "call-to-action.html" . }}
+
+        {{ partial "code-of-conduct.html" . }}
+
+	{{ partial "feature.html" . }}
+
+	{{ partial "service-home.html" . }}
+
+	{{ partial "testimonial.html" . }}
+
+	{{ partial "footer.html" . }}
+
+</body>
+</html>

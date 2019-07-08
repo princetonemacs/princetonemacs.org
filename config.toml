@@ -2,9 +2,32 @@ baseURL = "https://princetonemacs.org/"
 languageCode = "en-us"
 title = "Princeton Emacs"
 
-# theme = "blank"
-theme = "gohugo-theme-ananke"
+theme = "blank"
+# theme = "gohugo-theme-ananke"
+# theme = "airspace-hugo"
 googleAnalytics = "UA-142985376-1"
+
+# [menu]
+#   [[menu.main]]
+#     identifier = "home"
+#     name = "Home"
+#     pre = "<i class='fa fa-heart'></i>"
+#     url = "/"
+#     weight = -110
+
+#   [[menu.main]]
+#     identifier = "meetups"
+#     name = "Meetups"
+#     pre = "<i class='fa fa-heart'></i>"
+#     url = "/meetups/"
+#     weight = -100
+
+[menu]
+  [[menu.header]]
+    weight = 2
+    name = "Meetups"
+    url = "meetups"
+
 
 # Start theme-specific config
 enableRobotsTXT = true
@@ -16,24 +39,90 @@ Paginate = 3 # this is set low for demonstrating with dummy content. Set to a hi
   filename = "sitemap.xml"
 
 [params]
-  favicon = ""
-  description = "The last theme you'll ever need. Maybe."
-  facebook = ""
-  twitter = "https://twitter.com/princetonemacs"
-  instagram = ""
-  youtube = ""
-  github = "https://github.com/princetonemacs"
-  gitlab = ""
-  linkedin = ""
-  mastodon = ""
-  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-  background_color_class = "bg-orange"
-  featured_image = "/images/gohugo-default-sample-hero-image.jpg"
-  recent_posts_number = 2
-  recent_copy = "Past Meetups"
-
+  # favicon = ""
+  # description = "Princeton Emacs Meetup Group"
+  # facebook = ""
+  # twitter = "https://twitter.com/princetonemacs"
+  # instagram = ""
+  # youtube = ""
+  # github = "https://github.com/princetonemacs"
+  # gitlab = ""
+  # linkedin = ""
+  # mastodon = ""
+  # # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  # custom_css = ["css/custom.css"]
+  # background_color_class = "bg-orange"
+  # body_classes = "avenir bg-near-white"
+  # featured_image = "/images/princeton.jpg"
+  # recent_posts_number = 3
+  # recent_copy = "Past Meetups"
 # End theme-specific config
+  home = "Home"
+  # [menu]
+  #   [[menu.header]]
+  #     weight = 2
+  #     name = "Meetups"
+  #     url = "meetups"
 
+[params.slider]
+  enable = true
+  title = "Welcome to Princeton Emacs"
+  subtitle = "The Home of Princeton’s Newest and Most Exciting Emacs Community Meetup"
+  bgImage = "img/princeton.jpg"
+
+[params.wrapper]
+  enable = true
+  image = "img/pe.png"
+  title = "What is Princeton Emacs?"
+  # italic = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
+  paragraph = "Well…you are!  Princeton Emacs is about the Emacs community right here in Princeton, New Jersey.  It's not about any one company or a core group of individuals. We were founded on the principle that everyone deserves to be treated with respect. We all deserve a safe, judgement free place to congregate—online, and in person."
+
+[params.blog]
+  enable = true
+  title = "Get The Latest On What We're doing"
+  subtitle = "Catch up with us, anytime and anywhere"
+
+[params.feature]
+  enable = false
+  title = "Resources"
+  bgImage = "img/feature-bg.jpg"
+  content = "Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+  [params.feature.button]
+    caption = "View Works"
+    url = "#"
+
+[params.call]
+  enable = true
+  bgImage = "img/call-to-action-bg.jpg"
+  title = "Call For Proposals!"
+  paragraph = "Interested in speaking? Fill out this Google form and we'll get in touch."
+  [params.call.button]
+    url = "https://forms.gle/jqQ21CxYu8tZYe937"
+    text = "Submit a proposal"
+
+[params.coc]
+  enable = true
+  title = "Code of Conduct"
+  paragraph = "Princeton Emacs is dedicated to providing a harassment-free meetup experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, religion, or anything else. We do not tolerate harassment of meetup participants in any form."
+
+[params.contact]
+  enable = true
+  title = "Drop us a note"
+  subtitle = "Don’t just take our word for it. Check out some of our latest work."
+  [params.contact.form]
+    name = "Your name"
+    email = "Your email"
+    subject = "Your subject"
+    message = "Your message"
+    button = "Send message"
+  [params.contact.box]
+    title = "Stop by for a visit"
+    address = "North Main Street, Brooklyn Australia"
+    email = "Email: contact@mail.com"
+    phone = "Phone: +88 01672 506 744"
+  [params.contact.gmaps]
+    title = "We Also Count in Google Maps"
+# End theme-specific params
 
 [params.source]
   url = "https://github.com/princetonemacs/princetonemacs.org"

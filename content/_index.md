@@ -3,6 +3,7 @@ title = "Princeton Emacs"
 author = ["Jonathan Chu"]
 type = "homepage"
 draft = false
+description = "The Home of Princeton’s Newest and Most Exciting Emacs Community Meetup"
 +++
 
 ## Welcome to Princeton Emacs. {#welcome-to-princeton-emacs-dot}
@@ -48,7 +49,12 @@ If a participant engages in harassing behavior, the meetup organizers may take a
 
 ## Social Rules {#social-rules}
 
+<div class="haha">
+  <div></div>
+
 In addition to having a code of conduct as an anti-harassment policy, we have a small set of social rules we follow. We lifted these rules from the Recurse Center, where we felt that they contributed enormously to a supportive, productive, and fun learning environment. We'd like Princeton Emacs to share that environment. These rules are intended to be lightweight, and to make more explicit certain social norms that are normally implicit. Most of our social rules really boil down to "don't be a jerk" or "don't be annoying." Of course, almost nobody sets out to be a jerk or annoying, so telling people not to be jerks isn't a very productive strategy.
+
+</div>
 
 <https://www.recurse.com/social-rules>
 

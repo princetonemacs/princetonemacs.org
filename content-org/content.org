@@ -9,6 +9,8 @@
 :PROPERTIES:
 :EXPORT_FILE_NAME: _index
 :EXPORT_HUGO_TYPE: homepage
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :description The Home of Princeton’s Newest and Most Exciting Emacs Community Meetup
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :omit_header_text true
 :END:
 ** Welcome to Princeton Emacs.
 
@@ -38,7 +40,7 @@ All communication should be appropriate for a professional audience including pe
 If a participant engages in harassing behavior, the meetup organizers may take any action they deem appropriate, including warning the offender or expulsion from the event with no refund (if applicable). In the event of serious infractions of the code of conduct, Princeton Emacs staff may share incident details and offenders’ names with third parties including but not limited to: venue staff, local law enforcement, and staff of other meetups/conferences. If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of meetup staff immediately.
 
 ** Social Rules
-
+#+attr_html: :class haha
 In addition to having a code of conduct as an anti-harassment policy, we have a small set of social rules we follow. We lifted these rules from the Recurse Center, where we felt that they contributed enormously to a supportive, productive, and fun learning environment. We'd like Princeton Emacs to share that environment. These rules are intended to be lightweight, and to make more explicit certain social norms that are normally implicit. Most of our social rules really boil down to "don't be a jerk" or "don't be annoying." Of course, almost nobody sets out to be a jerk or annoying, so telling people not to be jerks isn't a very productive strategy.
 
 https://www.recurse.com/social-rules
@@ -63,13 +65,18 @@ https://jonathanchu.is/
 * Meetups
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: meetups
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :omit_header_text true
 :END:
 ** Meetup #1 - June 17, 2019
 :PROPERTIES:
-:EXPORT_DATE: 2019-07-03T00:00:00-04:00
+:EXPORT_DATE: 2019-06-17T00:00:00-04:00
 :EXPORT_FILE_NAME: first-meetup
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :featured_image /images/dont-use-emacs.png
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :omit_header_text true
 :END:
 Don’t Use Emacs
+#+hugo: more
+https://docs.google.com/presentation/d/1xMk1Q9dzTbixft1R7YQ2a6WRxKcOpJI3H0mFfZSBYbk/edit?usp=sharing
 ** Meetup #2 - July xx, 2019
 :PROPERTIES:
 :EXPORT_DATE: 2019-07-03T00:00:00-04:00
@@ -80,7 +87,7 @@ Second meetup title goes here
 Here is some more info on the second meetup.
 ** Meetup #3 - August xx, 2019
 :PROPERTIES:
-:EXPORT_DATE: 2019-07-03T00:00:00-04:00
+:EXPORT_DATE: 2019-08-03T00:00:00-04:00
 :EXPORT_FILE_NAME: third-meetup
 :END:
 Third meetup title goes here
@@ -88,7 +95,7 @@ Third meetup title goes here
 Here is some more info on the third meetup.
 ** Meetup #4 - September xx, 2019
 :PROPERTIES:
-:EXPORT_DATE: 2019-07-03T00:00:00-04:00
+:EXPORT_DATE: 2019-09-03T00:00:00-04:00
 :EXPORT_FILE_NAME: fourth-meetup
 :END:
 Fourth meetup title goes here
