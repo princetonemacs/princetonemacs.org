@@ -99,6 +99,7 @@ Paginate = 3 # this is set low for demonstrating with dummy content. Set to a hi
   [params.call.button]
     url = "https://forms.gle/jqQ21CxYu8tZYe937"
     text = "Submit a proposal"
+    target = true
 
 [params.coc]
   enable = true
