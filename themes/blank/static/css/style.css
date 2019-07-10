@@ -339,7 +339,6 @@ font header .navbar-default .navbar-nav li a:hover {
   background-attachment: fixed;
   padding: 70px 0px;
   position: relative;
-  text-align: center;
 }
 
 #code-of-conduct:before {
@@ -355,15 +354,14 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 #code-of-conduct h2 {
-  padding-bottom: 20px;
-  line-height: 33px;
+  line-height: 1.6;
   margin: 0;
-  font-size: 30px;
+  font-size: 44px;
+  text-align: center;
 }
 
 #code-of-conduct p {
   color: #7B7B7B;
-  font-size: 14px;
   line-height: 1.6;
 }
 
