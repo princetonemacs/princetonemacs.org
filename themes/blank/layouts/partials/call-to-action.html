@@ -9,7 +9,7 @@
           <h2>{{ .title }}</h2>
           <p>{{ .paragraph }}</p>
           {{ with .button }}
-          <a {{ if .target }}target="blank" {{ end }}class="btn btn-main btn-solid-border" href="{{ .url }}" >{{ .text }}</a>
+          <a {{ if .target }}target="blank" {{ end }}class="btn btn-main btn-solid-border btn-call-to-action" href="{{ .url }}" >{{ .text }}</a>
           {{ end }}
         </div>
       </div>
