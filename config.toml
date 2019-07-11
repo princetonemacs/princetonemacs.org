@@ -82,15 +82,6 @@ Paginate = 3 # this is set low for demonstrating with dummy content. Set to a hi
   title = "Get The Latest On What We're doing"
   subtitle = "Catch up with us, anytime and anywhere"
 
-[params.feature]
-  enable = false
-  title = "Resources"
-  bgImage = "img/feature-bg.jpg"
-  content = "Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
-  [params.feature.button]
-    caption = "View Works"
-    url = "#"
-
 [params.call]
   enable = true
   bgImage = "img/call-to-action-bg.jpg"
@@ -139,23 +130,26 @@ Paginate = 3 # this is set low for demonstrating with dummy content. Set to a hi
     contact a member of meetup staff immediately.
   """
 
-[params.contact]
+[params.feature]
   enable = true
-  title = "Drop us a note"
-  subtitle = "Don’t just take our word for it. Check out some of our latest work."
-  [params.contact.form]
-    name = "Your name"
-    email = "Your email"
-    subject = "Your subject"
-    message = "Your message"
-    button = "Send message"
-  [params.contact.box]
-    title = "Stop by for a visit"
-    address = "North Main Street, Brooklyn Australia"
-    email = "Email: contact@mail.com"
-    phone = "Phone: +88 01672 506 744"
-  [params.contact.gmaps]
-    title = "We Also Count in Google Maps"
+  title = "Social Rules"
+  bgImage = "img/feature-bg.jpg"
+  content = """
+  We would also like to borrow the Social Rules from the [Recurse Center](https://www.recurse.com):
+
+  * :star: No well actually's
+  * :star: No feigned surprise
+  * :star: No backseat driving
+  * :star: No subtle-isms
+
+  <br>
+  For a full description of each social rule, please see RC’s
+  [Social Rules page.](https://www.recurse.com/manual#sub-sec-social-rules)
+
+  Like RC, these rules are not a hard contract. They are designed to
+  encourage a fun, welcoming, meetup where everyone can enjoy
+  themselves.
+  """
 # End theme-specific params
 
 [params.source]
