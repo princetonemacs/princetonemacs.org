@@ -1,0 +1,14 @@
+{{ if .Site.Params.rules.enable }}
+<section id="feature" style="background-image: url('{{ .Site.Params.rules.bgImage | absURL }}');">
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-6">
+      <h2>{{ .Site.Params.rules.title }}</h2>
+      <p>
+        {{ .Site.Params.rules.content | markdownify | emojify }}
+      </p>
+    </div>
+  </div>
+</div>
+</section>
+{{ end }}
