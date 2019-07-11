@@ -978,29 +978,6 @@ footer a {
   color: #595959;
 }
 
-footer .footer-manu {
-  padding-bottom: 25px;
-}
-
-footer .footer-manu ul {
-  margin: 0px;
-  padding: 0px;
-}
-
-footer .footer-manu ul li {
-  display: inline-block;
-  padding: 0px 20px;
-}
-
-footer .footer-manu ul li a {
-  display: inline-block;
-  color: #494949;
-}
-
-footer .footer-manu ul li a:hover {
-  color: #000;
-}
-
 /*		Default Layout: 992px.
                 Gutters: 24px.
                 Outer margins: 48px.
