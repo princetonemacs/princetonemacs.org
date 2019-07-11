@@ -77,10 +77,10 @@ Paginate = 3 # this is set low for demonstrating with dummy content. Set to a hi
   # italic = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
   paragraph = "Well…you are!  Princeton Emacs is about the Emacs community right here in Princeton, New Jersey.  It's not about any one company or a core group of individuals. We were founded on the principle that everyone deserves to be treated with respect. We all deserve a safe, judgement free place to congregate—online, and in person."
 
-[params.blog]
+[params.meetups]
   enable = true
-  title = "Get The Latest On What We're doing"
-  subtitle = "Catch up with us, anytime and anywhere"
+  title = "Past Meetups"
+  recent_posts_number = 3
 
 [params.call]
   enable = true
@@ -130,7 +130,7 @@ Paginate = 3 # this is set low for demonstrating with dummy content. Set to a hi
     contact a member of meetup staff immediately.
   """
 
-[params.feature]
+[params.rules]
   enable = true
   title = "Social Rules"
   bgImage = "img/feature-bg.jpg"

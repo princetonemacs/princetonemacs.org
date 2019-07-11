@@ -1,0 +1,60 @@
+{{ if .Site.Params.meetups.enable }}
+<section id="meetups" style="background-image: url('{{ .Site.Params.feature.bgImage | absURL }}');">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-sm-12">
+        <h2>{{ .Site.Params.meetups.title }}</h2>
+
+        {{/* Define a section to pull recent posts from. For Hugo 0.20 this will default to the section with the most number of pages. */}}
+        {{ $mainSections := .Site.Params.mainSections | default (slice "post") }}
+        {{/* Create a variable with that section to use in multiple places. */}}
+        {{ $section := where .Site.RegularPages "Section" "in" $mainSections }}
+        {{/* Check to see if the section is defined for ranging through it */}}
+        {{ $section_count := len $section }}
+        {{ if ge $section_count 1 }}
+        {{/* Derive the section name  */}}
+        {{ $section_name := index (.Site.Params.mainSections) 0 }}
+        {{ $n_posts := $.Param "recent_posts_number" | default 3 }}
+
+        {{ range (first $n_posts $section) }}
+        <article class="blog-post">
+          <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+            <div class="flex flex-column flex-row-ns">
+              {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
+              <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+                <a href="{{.URL}}" class="post-title">
+                  <img src="#" class="img" alt="image from {{ .Title }}">
+                </a>
+              </div>
+              <div class="blah w-100 w-60-ns pl3-ns">
+                <h3 class="f3 fw1 athelas mt0 lh-title">
+                  <a href="{{.URL}}" class="color-inherit dim link">
+                    {{ .Title }}
+                  </a>
+                </h1>
+                <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+                  {{ .Summary }}
+                </div>
+                <a href="{{.URL}}" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">{{ $.Param "read_more_copy" | default (i18n "readMore") }}</a>
+                {{/* TODO: add author
+                <p class="f6 lh-copy mv0">By {{ .Author }}</p> */}}
+              </div>
+            </div>
+          </div>
+        </article>
+        {{ end }}
+
+        {{ end }}
+
+
+      </div>  <!-- close col-md-7 col-sm-12 -->
+      <div class="col-md-5 col-sm-12">
+        <div class="block">
+          <img src="{{ with .Site.Params.wrapper.image }} {{ . | absURL }} {{ end }}" alt="Img">
+        </div>
+      </div><!-- .col-md-5 close -->
+
+    </div>
+  </div>
+</section>
+{{ end }}

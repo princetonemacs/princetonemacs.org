@@ -390,20 +390,14 @@ font header .navbar-default .navbar-nav li a:hover {
   padding: 100px 0;
 }
 
-#feature h2 {
+#meetups h2 {
   font-size: 44px;
   margin-bottom: 30px;
 }
 
-#feature p {
+#meetups p {
   color: #8d8f92;
   margin-bottom: 20px;
-}
-
-#feature .btn-view-works {
-  background: #655E7A;
-  color: #fff;
-  padding: 10px 20px;
 }
 
 /*--
@@ -494,18 +488,6 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 30px;
   display: inline-block;
   border: 0px;
-}
-
-/*--
-        features Start
---*/
-#clients-logo-section {
-  padding-top: 30px;
-  padding-bottom: 75px;
-}
-
-#clients-logo-section .clients-logo-img {
-  padding: 0px 50px;
 }
 
 /*---------------------------------------------
@@ -770,21 +752,6 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-right: 80px;
 }
 
-/*--
-        features-work Start
---*/
-#features-work {
-  padding-top: 50px;
-  padding-bottom: 75px;
-}
-
-#features-work .block ul li {
-  width: 19%;
-  text-align: center;
-  display: inline-block;
-  padding: 40px 0px;
-}
-
 /*---------------------------------------------
                                         Work Close
 -----------------------------------------------*/
@@ -898,21 +865,6 @@ font header .navbar-default .navbar-nav li a:hover {
   display: block;
 }
 
-/*--
-        features-contact Start
---*/
-#features-contact {
-  padding-top: 50px;
-  padding-bottom: 75px;
-}
-
-#features-contact .block ul li {
-  width: 19%;
-  text-align: center;
-  display: inline-block;
-  padding: 40px 0px;
-}
-
 /* Blog */
 .blog-post {
   margin-bottom: 50px;
@@ -1016,12 +968,6 @@ px      68    160    252    344    436    528    620    712    */
     padding-bottom: 100px;
   }
   /*--
-        features Start
---*/
-  #features {
-    text-align: center;
-  }
-  /*--
   code-of-conduct Start
 --*/
   #code-of-conduct {
@@ -1110,12 +1056,6 @@ px      68    160    252    344    436    528    620    712    */
     line-height: 20px;
     padding-right: 30px;
   }
-  /*--
-        features Start
---*/
-  #features-work .block ul li {
-    width: 49%;
-  }
   /*---------------------------------------------
                                         Work close
 -----------------------------------------------*/
@@ -1125,12 +1065,6 @@ px      68    160    252    344    436    528    620    712    */
 -----------------------------------------------*/
   #wrapper-contact .block {
     padding-bottom: 50px;
-  }
-  /*--
-        features-contact Start
---*/
-  #features-contact .block ul li {
-    width: 49%;
   }
   /*---------------------------------------------
                                         contact close
@@ -1231,12 +1165,6 @@ px      68    160    252    */
   #content .block-bottom .item-img {
     padding-left: 0px;
   }
-  /*--
-        features Start
---*/
-  #features .features-img {
-    text-align: center;
-  }
   /*---------------------------------------------
                                         Index Close
 -----------------------------------------------*/
@@ -1319,13 +1247,6 @@ px      68    160    252    */
     line-height: 20px;
     padding-top: 15px;
   }
-  /*--
-        features Start
---*/
-  #features-work .block ul li {
-    display: block;
-    width: 100%;
-  }
   /*---------------------------------------------
                                         Work close
 -----------------------------------------------*/
@@ -1361,13 +1282,6 @@ px      68    160    252    */
   }
   #wrapper-contact .block .social-media-icon a i {
     padding-top: 30px;
-  }
-  /*--
-        features-contact Start
---*/
-  #features-contact .block ul li {
-    display: block;
-    width: 100%;
   }
   /*---------------------------------------------
                                         contact close
