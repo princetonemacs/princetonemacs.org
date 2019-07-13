@@ -39,30 +39,7 @@ Paginate = 3 # this is set low for demonstrating with dummy content. Set to a hi
   filename = "sitemap.xml"
 
 [params]
-  # favicon = ""
-  # description = "Princeton Emacs Meetup Group"
-  # facebook = ""
-  # twitter = "https://twitter.com/princetonemacs"
-  # instagram = ""
-  # youtube = ""
-  # github = "https://github.com/princetonemacs"
-  # gitlab = ""
-  # linkedin = ""
-  # mastodon = ""
-  # # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-  # custom_css = ["css/custom.css"]
-  # background_color_class = "bg-orange"
-  # body_classes = "avenir bg-near-white"
-  # featured_image = "/images/princeton.jpg"
-  # recent_posts_number = 3
-  # recent_copy = "Past Meetups"
-# End theme-specific config
   home = "Home"
-  # [menu]
-  #   [[menu.header]]
-  #     weight = 2
-  #     name = "Meetups"
-  #     url = "meetups"
 
 [params.slider]
   enable = true
