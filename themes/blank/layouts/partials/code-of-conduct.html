@@ -8,7 +8,7 @@
                     <h2>{{ .Site.Params.coc.title }}</h2>
 
             </div>
-            <p>{{ safeHTML .Site.Params.coc.paragraph }}</p>
+            <p>{{ .Site.Params.coc.paragraph | markdownify }}</p>
         </div>
       </div><!-- .col-md-12 close -->
     </div>
