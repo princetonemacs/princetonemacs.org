@@ -2,7 +2,7 @@
 <section id="meetups" style="background-image: url('{{ .Site.Params.feature.bgImage | absURL }}');">
   <div class="container">
     <div class="row">
-      <div class="col-md-7 col-sm-12">
+      <div class="col-md-12">
         <h2>{{ .Site.Params.meetups.title }}</h2>
 
         {{/* Define a section to pull recent posts from. For Hugo 0.20 this will default to the section with the most number of pages. */}}
@@ -43,17 +43,8 @@
           </div>
         </article>
         {{ end }}
-
         {{ end }}
-
-
-      </div>  <!-- close col-md-7 col-sm-12 -->
-      <div class="col-md-5 col-sm-12">
-        <div class="block">
-          <img src="{{ with .Site.Params.wrapper.image }} {{ . | absURL }} {{ end }}" alt="Img">
-        </div>
-      </div><!-- .col-md-5 close -->
-
+      </div>  <!-- close col-md-12 -->
     </div>
   </div>
 </section>
