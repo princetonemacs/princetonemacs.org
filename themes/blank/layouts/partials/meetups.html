@@ -19,27 +19,24 @@
         {{ range (first $n_posts $section) }}
         <article class="blog-post">
           <div class="col-md-7 col-sm-12">
-            <div class="flex flex-column flex-row-ns">
-              {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
-              <div class="blah w-100 w-60-ns pl3-ns">
-                <h4 class="f3 fw1 athelas mt0 lh-title">
-                  <a href="{{.URL}}" class="color-inherit dim link">
+            <div class="block">
+              <div class="section-title">
+                <h4>
+                  <a href="{{ .URL }}" class="color-inherit dim link">
                     {{ .Title }}
                   </a>
                 </h4>
-                <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-                  {{ .Summary }}
-                </div>
-                <a href="{{.URL}}" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">{{ $.Param "read_more_copy" | default (i18n "readMore") }}</a>
-                {{/* TODO: add author
-                <p class="f6 lh-copy mv0">By {{ .Author }}</p> */}}
+                <p>{{ .Summary }}</p>
+                <p><a href="{{ .URL }}">{{ $.Param "read_more_copy" | default (i18n "readMore") }}</a></p>
               </div>
             </div>
           </div>  <!-- .col-md-7 .col-sm-12 close -->
           <div class="col-md-5 col-sm-12">
-            <a href="{{.URL}}" class="post-title">
-              <img src="#" class="img" alt="image from {{ .Title }}">
-            </a>
+            <div class="block">
+              <a href="{{.URL}}" class="post-title">
+                <img src="#" alt="Image from {{ .Title }}">
+              </a>
+            </div>
           </div>  <!-- .col-md-5 .col-sm-12 close -->
         </article>
         {{ end }}
