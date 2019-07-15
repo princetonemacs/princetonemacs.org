@@ -33,9 +33,13 @@
           </div>  <!-- .col-md-7 .col-sm-12 close -->
           <div class="col-md-5 col-sm-12">
             <div class="block">
+              {{ if .Params.featured_image }}
+              {{ $featured_image := .Params.featured_image }}
+              {{ $featured_image := (trim $featured_image "/") | absURL }}
               <a href="{{.URL}}" class="post-title">
-                <img src="#" alt="Image from {{ .Title }}">
+                <img src="{{ $featured_image }}" alt="Image from {{ .Title }}">
               </a>
+              {{ end }}
             </div>
           </div>  <!-- .col-md-5 .col-sm-12 close -->
         </article>
