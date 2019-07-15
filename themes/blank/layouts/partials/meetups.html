@@ -18,7 +18,7 @@
 
         {{ range (first $n_posts $section) }}
         <article class="blog-post">
-          <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+          <div class="col-md-7 col-sm-12">
             <div class="flex flex-column flex-row-ns">
               {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
               <div class="blah w-100 w-60-ns pl3-ns">
@@ -35,17 +35,16 @@
                 <p class="f6 lh-copy mv0">By {{ .Author }}</p> */}}
               </div>
             </div>
-          </div>
-          <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+          </div>  <!-- .col-md-7 .col-sm-12 close -->
+          <div class="col-md-5 col-sm-12">
             <a href="{{.URL}}" class="post-title">
               <img src="#" class="img" alt="image from {{ .Title }}">
             </a>
-          </div>
-
+          </div>  <!-- .col-md-5 .col-sm-12 close -->
         </article>
         {{ end }}
         {{ end }}
-      </div>  <!-- close col-md-12 -->
+      </div>  <!-- .col-md-12 close -->
     </div>
   </div>
 </section>
