@@ -3,7 +3,7 @@ title = "Meetup #1 - June 17, 2019"
 author = ["Jonathan Chu"]
 date = 2019-06-17T00:00:00-04:00
 draft = false
-featured_image = "/images/dont-use-emacs.png"
+featured_image = "/img/dont-use-emacs.png"
 omit_header_text = true
 +++
 
