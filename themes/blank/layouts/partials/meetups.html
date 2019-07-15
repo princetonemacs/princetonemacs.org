@@ -22,7 +22,7 @@
             <div class="block">
               <div class="section-title">
                 <h4>
-                  <a href="{{ .URL }}" class="color-inherit dim link">
+                  <a href="{{ .URL }}">
                     {{ .Title }}
                   </a>
                 </h4>
@@ -33,14 +33,16 @@
           </div>  <!-- .col-md-7 .col-sm-12 close -->
           <div class="col-md-5 col-sm-12">
             <div class="block">
-              {{ if .Params.featured_image }}
-              {{ $featured_image := .Params.featured_image }}
-              {{ $featured_image := (trim $featured_image "/") | absURL }}
-              <a href="{{.URL}}" class="post-title">
-                <img src="{{ $featured_image }}" alt="Image from {{ .Title }}">
-              </a>
-              {{ end }}
-            </div>
+              <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns" style="width: 375px !important">
+                {{ if .Params.featured_image }}
+                {{ $featured_image := .Params.featured_image }}
+                {{ $featured_image := (trim $featured_image "/") | absURL }}
+                <a href="{{.URL}}" class="post-title">
+                  <img src="{{ $featured_image }}" alt="Image from {{ .Title }}">
+                </a>
+                {{ end }}
+              </div>
+            </div>  <!-- .block close -->
           </div>  <!-- .col-md-5 .col-sm-12 close -->
         </article>
         {{ end }}
