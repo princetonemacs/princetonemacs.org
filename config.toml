@@ -3,24 +3,7 @@ languageCode = "en-us"
 title = "Princeton Emacs"
 
 theme = "blank"
-# theme = "gohugo-theme-ananke"
-# theme = "airspace-hugo"
 googleAnalytics = "UA-142985376-1"
-
-# [menu]
-#   [[menu.main]]
-#     identifier = "home"
-#     name = "Home"
-#     pre = "<i class='fa fa-heart'></i>"
-#     url = "/"
-#     weight = -110
-
-#   [[menu.main]]
-#     identifier = "meetups"
-#     name = "Meetups"
-#     pre = "<i class='fa fa-heart'></i>"
-#     url = "/meetups/"
-#     weight = -100
 
 [menu]
   [[menu.header]]
@@ -28,10 +11,8 @@ googleAnalytics = "UA-142985376-1"
     name = "Meetups"
     url = "meetups"
 
-
 # Start theme-specific config
 enableRobotsTXT = true
-Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
 
 [sitemap]
   changefreq = "monthly"
@@ -117,7 +98,8 @@ Paginate = 3 # this is set low for demonstrating with dummy content. Set to a hi
   # bgImage = "img/feature-bg.jpg"
   bgImage = "img/rules-bg.jpg"
   content = """
-  We would also like to borrow the Social Rules from the [Recurse Center](https://www.recurse.com):
+  We would also like to borrow the Social Rules from the [Recurse
+  Center](https://www.recurse.com):
 
   * :star: No well actually's
   * :star: No feigned surprise
@@ -125,8 +107,8 @@ Paginate = 3 # this is set low for demonstrating with dummy content. Set to a hi
   * :star: No subtle-isms
 
   <br>
-  For a full description of each social rule, please see RC’s
-  [Social Rules page.](https://www.recurse.com/manual#sub-sec-social-rules)
+  For a full description of each social rule, please see RC’s [Social
+  Rules page.](https://www.recurse.com/manual#sub-sec-social-rules)
 
   Like RC, these rules are not a hard contract. They are designed to
   encourage a fun, welcoming, meetup where everyone can enjoy
