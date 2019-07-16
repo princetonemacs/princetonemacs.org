@@ -38,7 +38,7 @@
                 {{ $featured_image := .Params.featured_image }}
                 {{ $featured_image := (trim $featured_image "/") | absURL }}
                 <a href="{{.URL}}" class="post-title">
-                  <img src="{{ $featured_image }}" alt="Image from {{ .Title }}">
+                  <img src="{{ $featured_image }}" alt="Image from {{ .Title }}" width="350">
                 </a>
                 {{ end }}
               </div>
