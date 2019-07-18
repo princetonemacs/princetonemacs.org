@@ -95,7 +95,6 @@ enableRobotsTXT = true
 [params.rules]
   enable = true
   title = "Social Rules"
-  # bgImage = "img/feature-bg.jpg"
   bgImage = "img/rules-bg.jpg"
   content = """
   We would also like to borrow the Social Rules from the [Recurse
