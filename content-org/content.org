@@ -13,9 +13,8 @@
 ** Meetup #1 - June 17, 2019
 :PROPERTIES:
 :EXPORT_DATE: 2019-06-17T00:00:00-04:00
-:EXPORT_FILE_NAME: first-meetup
+:EXPORT_FILE_NAME: dont-use-emacs
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :featured_image /img/dont-use-emacs.png
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :omit_header_text true
 :END:
 Don’t Use Emacs
 #+hugo: more
