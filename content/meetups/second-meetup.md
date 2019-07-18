@@ -1,7 +1,7 @@
 +++
-title = "Meetup #2 - July xx, 2019"
+title = "Meetup #2 - August xx, 2019"
 author = ["Jonathan Chu"]
-date = 2019-07-03T00:00:00-04:00
+date = 2019-08-15T00:00:00-04:00
 draft = false
 omit_header_text = true
 +++

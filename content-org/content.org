@@ -19,26 +19,11 @@
 Don’t Use Emacs
 #+hugo: more
 https://docs.google.com/presentation/d/1xMk1Q9dzTbixft1R7YQ2a6WRxKcOpJI3H0mFfZSBYbk/edit?usp=sharing
-** Meetup #2 - July xx, 2019
+** Meetup #2 - August xx, 2019
 :PROPERTIES:
-:EXPORT_DATE: 2019-07-03T00:00:00-04:00
+:EXPORT_DATE: 2019-08-15T00:00:00-04:00
 :EXPORT_FILE_NAME: second-meetup
 :END:
 Second meetup title goes here
 
 Here is some more info on the second meetup.
-** Meetup #3 - August xx, 2019
-:PROPERTIES:
-:EXPORT_DATE: 2019-08-03T00:00:00-04:00
-:EXPORT_FILE_NAME: third-meetup
-:END:
-Third meetup title goes here
-
-Here is some more info on the third meetup.
-** Meetup #4 - September xx, 2019
-:PROPERTIES:
-:EXPORT_DATE: 2019-09-03T00:00:00-04:00
-:EXPORT_FILE_NAME: fourth-meetup
-:END:
-Fourth meetup title goes here
-Here is some more info on the fourth meetup.
