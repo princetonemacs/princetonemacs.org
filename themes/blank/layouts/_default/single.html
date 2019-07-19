@@ -20,7 +20,7 @@
                       <p class="italic">Posted on <span class="bold">{{ .Site.Params.dateFormat | default "Jan 2, 2006" | .Date.Format }}</span></p>
                     </div>
                     <hr />
-                    <p>{{ .Content }}</p>
+                    <p>{{ .Content | safeHTML }}</p>
                   </div>
                 </div><!-- .col-md-7 close -->
               </div>
