@@ -34,16 +34,6 @@
 <script async src="{{ .Site.BaseURL }}js/plugins.js"></script>
 <script async src="{{ .Site.BaseURL }}js/venobox.min.js"></script>
 <script async src="{{ .Site.BaseURL }}js/main.js"></script>
-<!--
-/*
- * Airspace
- * Ported to Hugo by Giacomo Mariani
- * https://github.com/karju-dev/airspace-hugo
- * Based on the original Jakyll porting by Andrew Lee
- * https://github.com/luminousrubyist/airspace-jekyll
- * Designed and Developed by ThemeFisher
- * https://themefisher.com/
- *
- */
--->
+{{ template "_internal/google_analytics.html" . }}
+
 {{- partial "head_custom.html" . }}
