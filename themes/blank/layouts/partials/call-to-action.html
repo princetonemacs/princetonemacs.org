@@ -1,0 +1,20 @@
+{{ if .Site.Params.call.enable }}
+{{ with .Site.Params.call }}
+<!-- Call to action Start -->
+<section id="call-to-action" style="background-image: url('{{ .Site.Params.call.bgImage | absURL }}');">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h2>{{ .title }}</h2>
+          <p>{{ .paragraph }}</p>
+          {{ with .button }}
+          <a {{ if .target }}target="blank" {{ end }}class="btn btn-main btn-solid-border btn-call-to-action" href="{{ .url }}" >{{ .text }}</a>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}

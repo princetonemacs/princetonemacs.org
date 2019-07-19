@@ -1,24 +1,35 @@
+<!-- footer Start -->
 <footer>
-  <p>&copy; {{ now.Year }} <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></p>
-  {{ if site.Params.footer.show_powered_by }}
-  {{ if site.Params.source.org_dir }}
-  Exported
-  {{ if site.Params.source.org_file }}
-  from <a href="{{ site.Params.source.url }}/raw/master/{{ site.Params.source.org_file }}"> <code>{{ site.Params.source.org_file | replaceRE "^.*/" "" }}</code></a>
-  {{ end }}
-  using
-  {{ with .Params.creator }}
-  <a href="https://www.gnu.org/software/emacs/">{{ . | replaceRE "\\(Org.*" "" }}</a> &plus;
-  <a href="https://orgmode.org/">{{ . | replaceRE "Emacs.*\\(" "" | replaceRE "\\+ ox-.*" "" }}</a> &plus;
-  {{ end }}
-  <a href="https://github.com/kaushalmodi/ox-hugo"><code>ox-hugo</code></a>
-  and published using
-  {{ else }}
-  This site is generated using
-  {{ end }}
-  <a href="https://gohugo.io/">Hugo {{ hugo.Version }}</a>
-  &plus; <a href="https://github.com/vimux/blank/">Blank</a>
-  {{ end }}
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+          <ul>
+            {{ range .Site.Menus.footer }}
+            <li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+            {{ end }}
+          </ul>
+        <p>
+          {{ if site.Params.footer.show_powered_by }}
+          {{ if site.Params.source.org_dir }}
+          Exported
+          {{ if site.Params.source.org_file }}
+          from <a href="{{ site.Params.source.url }}/raw/master/{{ site.Params.source.org_file }}"> <code>{{ site.Params.source.org_file | replaceRE "^.*/" "" }}</code></a>
+          {{ end }}
+          using
+          {{ with .Params.creator }}
+          <a href="https://www.gnu.org/software/emacs/">{{ . | replaceRE "\\(Org.*" "" }}</a> &plus;
+          <a href="https://orgmode.org/">{{ . | replaceRE "Emacs.*\\(" "" | replaceRE "\\+ ox-.*" "" }}</a> &plus;
+          {{ end }}
+          <a href="https://github.com/kaushalmodi/ox-hugo"><code>ox-hugo</code></a>
+          and published using
+          {{ else }}
+          This site is generated using
+          {{ end }}
+          <a href="https://gohugo.io/">Hugo {{ hugo.Version }}</a>
+          &plus; <a href="https://github.com/vimux/blank/">Blank</a>
+          {{ end }}
+        </p>
+      </div>
+    </div>
+  </div>
 </footer>
-</body>
-</html>
