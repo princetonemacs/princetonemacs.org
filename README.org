@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1711c84d-bf5b-4545-a3e3-44af4bb12c7a/deploy-status)](https://app.netlify.com/sites/nervous-rosalind-b41103/deploys)
+
 * Princeton Emacs Website
 In the beginning there was darkness
 
