@@ -1,9 +1,6 @@
 $(document).ready(function () {
 
 
-        $("#portfolio-contant-active").mixItUp();
-
-
         $("#clients-logo").owlCarousel({
                 autoPlay: 3000,
                 items: 5,
