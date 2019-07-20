@@ -17,5 +17,3 @@ There will be a quick high-level talk on Emacs and its history to get things goi
 The title of this talk is tongue-in-cheek as we only scratched the surface talking about why Emacs rocks!
 
 Slides - <https://docs.google.com/presentation/d/1xMk1Q9dzTbixft1R7YQ2a6WRxKcOpJI3H0mFfZSBYbk/edit?usp=sharing>
-
-{{< slides 2PACX-1vScTR2fTtLKUMIkYPLbZMLfCb\_AWD3Mf8ZfhIc60UrV0kXlPNjg7kloRlcBBKSPMlVQFAQmMUY7WtZo >}}

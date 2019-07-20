@@ -26,8 +26,6 @@ The title of this talk is tongue-in-cheek as we only scratched the surface talki
 
 Slides - https://docs.google.com/presentation/d/1xMk1Q9dzTbixft1R7YQ2a6WRxKcOpJI3H0mFfZSBYbk/edit?usp=sharing
 
-{{< slides 2PACX-1vScTR2fTtLKUMIkYPLbZMLfCb_AWD3Mf8ZfhIc60UrV0kXlPNjg7kloRlcBBKSPMlVQFAQmMUY7WtZo >}}
-
 ** Meetup #2 - August xx, 2019
 :PROPERTIES:
 :EXPORT_DATE: 2019-08-15T00:00:00-04:00
