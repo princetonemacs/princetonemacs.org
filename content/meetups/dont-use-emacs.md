@@ -18,4 +18,4 @@ The title of this talk is tongue-in-cheek as we only scratched the surface talki
 
 Slides - <https://docs.google.com/presentation/d/1xMk1Q9dzTbixft1R7YQ2a6WRxKcOpJI3H0mFfZSBYbk/edit?usp=sharing>
 
-<iframe src="<https://docs.google.com/presentation/d/e/2PACX-1vScTR2fTtLKUMIkYPLbZMLfCb%5FAWD3Mf8ZfhIc60UrV0kXlPNjg7kloRlcBBKSPMlVQFAQmMUY7WtZo/embed?start=false&loop=false&delayms=3000>" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+{{< slides 2PACX-1vScTR2fTtLKUMIkYPLbZMLfCb\_AWD3Mf8ZfhIc60UrV0kXlPNjg7kloRlcBBKSPMlVQFAQmMUY7WtZo >}}
